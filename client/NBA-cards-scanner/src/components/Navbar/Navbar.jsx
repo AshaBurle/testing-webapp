@@ -1,4 +1,4 @@
-import React from 'react';
+import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
   const handleDownload = () => {
@@ -18,8 +18,8 @@ const Navbar = () => {
         {/* Download Button */}
         <button
           onClick={handleDownload}
-          className="bg-white text-[#2D3748] text-md px-4 py-2 rounded-md shadow hover:bg-gray-100 transition-all"
-        >
+          className="bg-white flex items-center text-[#2D3748] text-md px-4 py-2 rounded-md shadow hover:bg-gray-100 transition-all"
+        > <ArrowDownTrayIcon className="w-6 h-6 mr-2" />
           Download Images
         </button>
       </div>
