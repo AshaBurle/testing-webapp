@@ -59,7 +59,7 @@ const App = () => {
         {/* Custom Upload Button */}
         <label
           htmlFor="file-input"
-          className="mb-4 cursor-pointer flex items-center px-4 py-2 bg-[#0D9488] hover:bg-[#0F766E] text-white rounded-md shadow-md hover:bg-[#982B1C] transition-colors duration-300 ease-in-out"
+          className="mb-4 cursor-pointer flex items-center px-4 py-2 bg-[#0D9488] hover:bg-[#0F766E] text-white rounded-md shadow-md  transition-colors duration-300 ease-in-out"
         >
           <ArrowUpTrayIcon className="h-6 w-6 mr-2" /> {/* Upload Icon */}
           Upload Images
